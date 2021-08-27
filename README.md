@@ -1,4 +1,4 @@
-# epix-hr-dev
+# epix-hr-quad-10k
 
 # Before you clone the GIT repository
 
@@ -15,13 +15,13 @@
 > $ git lfs install
 
 # Clone the GIT repository
-``` $ git clone --recursive git@github.com:slaclab/epix-hr-dev```
+``` $ git clone --recursive git@github.com:slaclab/epix-hr-quad-10k```
 
 
-# Program camera mcs file
+# Program camera mcs file (out of date)
 
 1) go to folder
-cd epix-hr-single-10k/software
+cd epix-hr-quad-10k/software
 
 2) source the environment
 source setup_env_slac.sh
@@ -30,7 +30,7 @@ source setup_env_slac.sh
 python ./scripts/updateEpixHr  --mcs   ../firmware/targets/EpixHr10kT/images/EpixHr10kT-0x03010000-20210823153944-ddoering-20f1553.mcs --lane 0
 
 
-# Running the camera
+# Running the camera (out of date)
 
 1) go to folder
 cd epix-hr-single-10k/software
